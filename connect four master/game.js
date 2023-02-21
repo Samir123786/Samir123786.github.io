@@ -256,7 +256,7 @@ function oncolumclick(column) {
     piece.dataset.player = playerTurn
     cell.appendChild(piece)
     let sound = document.createElement("audio")
-    sound.src = "https://github.com/Samir123786/Samir123786.github.io/blob/536e08740a2e73be4dc033593b55364a5f3a61bb/connect%20four%20master/gamesound.mp3"
+    sound.src = "https://github.com/Samir123786/Samir123786.github.io/raw/main/connect%20four%20master/gamesound.mp3"
    
 cell.appendChild(sound)
 sound.play()
@@ -313,7 +313,7 @@ function checkwindraw() {
         winnermssbox.classList.remove("active")
         winnermssbox2.classList.remove("active")
         let winningsound = document.createElement("audio")
-            winningsound.src = "https://github.com/Samir123786/Samir123786.github.io/blob/536e08740a2e73be4dc033593b55364a5f3a61bb/connect%20four%20master/winning.wav"
+            winningsound.src = "https://github.com/Samir123786/Samir123786.github.io/raw/main/connect%20four%20master/winning.wav"
          
             winningsound.style.display="none"
             winningsound.play()
